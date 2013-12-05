@@ -1,10 +1,8 @@
 NRTouchPoints
 =============
 
-UIWindow subclass that simulates users touches on screen
----------------------
 
-I wanted to be able to record a tutorial for the users of my apps. When I had Jailbreak, that was possible, but with a non-jailbroken phone, this gets complicated. The solution I found was to user Reflector app to record, but this option would not show where exactly the user tapped. So what was the solution for my solution? To create a subclass of UIWindow that shows where the user is tapping in the moment.
+I wanted to be able to record a tutorial for the users of my apps. When I had Jailbreak, that was possible, but with a non-jailbroken phone, this gets complicated. The solution I found was to use [Reflector App](http://www.airsquirrels.com/reflector/) to record the screen, but this option would not show where exactly the user tapped. So what was the solution for my solution? To create a subclass of UIWindow that shows where the user is tapping in the moment.
 
 Ah, don’t forget to remove them when sending your app to the AppStore!
 
