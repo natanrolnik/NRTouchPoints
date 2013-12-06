@@ -1,12 +1,11 @@
 NRTouchPoints
 =============
 
-
 I wanted to be able to record a tutorial for the users of my apps. When I had Jailbreak, that was possible, but with a non-jailbroken phone, this gets complicated. The solution I found was to use [Reflector App](http://www.airsquirrels.com/reflector/) to record the screen, but this option would not show where exactly the user tapped. So what was the solution for my solution? To create a subclass of UIWindow that shows where the user is tapping in the moment.
 
 Ah, don’t forget to remove them when sending your app to the AppStore!
 
-*[Check the demo here! http://www.youtube.com/watch?v=V_sGsIWSTBQ](http://www.youtube.com/watch?v=V_sGsIWSTBQ)*
+**[Check the demo here! http://www.youtube.com/watch?v=V_sGsIWSTBQ](http://www.youtube.com/watch?v=V_sGsIWSTBQ)**
 
 ## Installation
 ---------------------
@@ -18,5 +17,6 @@ Ah, don’t forget to remove them when sending your app to the AppStore!
 + Step 3: There is no step 3! 
 
 ## License
+---------------------
 
 NRTouchPoints is available under the MIT license. See the LICENSE file for more info.
