@@ -20,3 +20,6 @@ Ah, don’t forget to remove them when sending your app to the AppStore!
 ---------------------
 
 NRTouchPoints is available under the MIT license. See the LICENSE file for more info.
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/natanrolnik/nrtouchpoints/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
