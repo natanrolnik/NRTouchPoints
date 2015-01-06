@@ -11,11 +11,32 @@
 
 @implementation NRWindow
 
+- (id)initWithFrame:(CGRect)frame
+{
+    if (self = [super initWithFrame:frame]) {
+        [self initDefaults];
+    }
+    return self;
+}
+
+- (id)initWithCoder:(NSCoder *)coder
+{
+    if (self = [super initWithCoder:coder]) {
+        [self initDefaults];
+    }
+    return self;
+}
+
+- (void)initDefaults
+{
+    [self setTouchPointsEnabled:YES];
+}
+
 - (void)sendEvent:(UIEvent *)event
 {
     [super sendEvent:event];
     
-    if (event.type == UIEventTypeTouches)
+    if (self.touchPointsEnabled && event.type == UIEventTypeTouches)
     {
         for (UITouch *touch in [event allTouches])
         {

@@ -12,4 +12,8 @@
 
 @property (nonatomic, strong) UIImage *touchRepresentationCustomImage;
 
+@property (nonatomic) BOOL touchPointsEnabled;
+
+- (void)initDefaults;
+
 @end
